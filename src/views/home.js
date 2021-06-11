@@ -66,17 +66,17 @@ const Home = () => {
           />
         </div>
         <img
-          alt="image"
+          alt="Turquoise cirle icon"
           src="/playground_assets/turquoise-circle.svg"
           className={styles.turquoisecirble}
         />
         <img
-          alt="image"
+          alt="Purple circle icon"
           src="/playground_assets/purple-circle.svg"
           className={styles.purplecircle}
         />
-        <img alt="image" src="/playground_assets/left.svg" className={styles.left} />
-        <img alt="image" src="/playground_assets/right.svg" className={styles.right} />
+        <img alt="Playground assests icon" src="/playground_assets/left.svg" className={styles.left} />
+        <img alt="Playground assests icon for other things and stuff" src="/playground_assets/right.svg" className={styles.right} />
       </div>
       <div className={styles.clients}>
         <div className={styles.divider}></div>
