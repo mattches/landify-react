@@ -716,6 +716,10 @@
 .icon11:hover {
   fill: var(--dl-color-orange-default);
 }
+.image13 {
+  width: 100px;
+  object-fit: cover;
+}
 @media(max-width: 991px) {
   .container01 {
     display: none;

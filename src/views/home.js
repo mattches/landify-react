@@ -22,7 +22,11 @@ const Home = () => {
         <div className={styles.blurbackground}></div>
         <header className={styles.header}>
           <div className={styles.logo}>
-            <img alt="image" src="/playground_assets/logotype-dark.svg" className={styles.image} />
+            <img
+              alt="Landify logo"
+              src="/playground_assets/logotype-dark.svg"
+              className={styles.image}
+            />
           </div>
           <div className={styles.menu}>
             <span className={styles.text}>About</span>
@@ -55,7 +59,11 @@ const Home = () => {
             </h1>
             <PrimaryButton button="Get Started"></PrimaryButton>
           </div>
-          <img alt="image" src="/playground_assets/iPhoneX-1200h.png" className={styles.image01} />
+          <img
+            alt="Mobile phone"
+            src="/playground_assets/iPhoneX-1200h.png"
+            className={styles.image01}
+          />
         </div>
         <img
           alt="image"
@@ -72,11 +80,11 @@ const Home = () => {
       </div>
       <div className={styles.clients}>
         <div className={styles.divider}></div>
-        <img alt="image" src="/playground_assets/logo-1.svg" className={styles.image02} />
-        <img alt="image" src="/playground_assets/logo-4.svg" className={styles.image03} />
-        <img alt="image" src="/playground_assets/logo-3.svg" className={styles.image04} />
-        <img alt="image" src="/playground_assets/logo-5.svg" className={styles.image05} />
-        <img alt="image" src="/playground_assets/logo-6.svg" className={styles.image06} />
+        <img alt="Airbnb logo" src="/playground_assets/logo-1.svg" className={styles.image02} />
+        <img alt="Hubspot logo" src="/playground_assets/logo-4.svg" className={styles.image03} />
+        <img alt="Google Logo" src="/playground_assets/logo-3.svg" className={styles.image04} />
+        <img alt="Microsoft logo" src="/playground_assets/logo-5.svg" className={styles.image05} />
+        <img alt="Walmart logo" src="/playground_assets/logo-6.svg" className={styles.image06} />
         <div className={styles.divider1}></div>
       </div>
       <div id="features" className={styles.features}>
@@ -173,7 +181,7 @@ const Home = () => {
       <div className={styles.feature1}>
         <div className={styles.container13}>
           <img
-            alt="image"
+            alt="iPhone mock up for app"
             src="/playground_assets/iPhoneX-1200h.png"
             image_src="/playground_assets/iPhoneX-1200h.png"
             className={styles.image08}
@@ -205,7 +213,7 @@ const Home = () => {
           </span>
         </div>
         <img
-          alt="image"
+          alt="Mobile dvices with a flower and fanner"
           src="https://images.unsplash.com/photo-1535157412991-2ef801c1748b?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
           image_src="/playground_assets/iPhoneX-1200h.png"
           className={styles.image09}
@@ -230,13 +238,13 @@ const Home = () => {
           </div>
           <div className={styles.container18}>
             <img
-              alt="image"
+              alt="Mobile device mock with chat bubbles"
               src="/playground_assets/iPhoneX-1200h.png"
               image_src="/playground_assets/iPhoneX-1200h.png"
               className={styles.image10}
             />
             <img
-              alt="image"
+              alt="Mobile  device mockup for chat app"
               src="/playground_assets/iPhoneX-1200h.png"
               image_src="/playground_assets/iPhoneX-1200h.png"
               className={styles.image11}
@@ -246,7 +254,11 @@ const Home = () => {
       </div>
       <div className={styles.footer}>
         <footer className={styles.container19}>
-          <img alt="image" src="/playground_assets/logotype-light.svg" className={styles.image12} />
+          <img
+            alt="Landify logo"
+            src="/playground_assets/logotype-light.svg"
+            className={styles.image12}
+          />
           <div className={styles.container20}>
             <span className={styles.text32}>About</span>
             <span className={styles.text33}>Features</span>
@@ -313,6 +325,11 @@ const Home = () => {
           </div>
         </footer>
       </div>
+      <img
+        alt="Landify logo"
+        src="/playground_assets/logotype-light.svg"
+        className={styles.image13}
+      />
     </div>
   )
 }
