@@ -107,7 +107,7 @@ const Home = () => {
       <div className={styles.testimonials}>
         <div className={styles.container03}>
           <div className={styles.container04}>
-            <img alt="image" src="/playground_assets/quote-mark.svg" className={styles.image07} />
+            <img alt="Quote mark icon" src="/playground_assets/quote-mark.svg" className={styles.image07} />
             <h1 className={` ${projectStyles.headline2} ${styles.text11} `}>
               Real Stories from Real Customers
             </h1>
